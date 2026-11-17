@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-ax="lab" data-track="fluency">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>المختبر 1.2 · مقارنة التوقع بالواقع، طالبًا ثم مدرّسًا · تقديم منهج البيانات والذكاء الاصطناعي في مختلف التخصصات</title>
+<meta name="generator" content="SDAIA Academy engine 1.0.0">
+<link rel="icon" href="../_engine/icon.svg">
+<link rel="alternate" type="text/markdown" href="D1_2_prediction.md">
+<link rel="describedby" href="../llms.txt">
+<link rel="stylesheet" href="../_engine/academy.css">
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="top"><div class="logo"></div><nav><a href="../index.html">صفحة المقرر</a><a href="../slides/day1.html#lab-1-2">العودة إلى الشرائح</a></nav></div>
+<span class="tag">المختبر 1.2</span>
+<h1>مقارنة التوقع بالواقع، طالبًا ثم مدرّسًا</h1>
+<p>تكتب توقعك لستة اختبارات قبل تشغيلها على المساعد، وتسجّل ما حدث في ثلاثة تشغيلات لكل اختبار، ثم تكتب بطاقة التيسير لمن سيدير المختبر.</p>
+<div class="meta"><span>35 دقيقة</span><span>اليوم 1</span><span>الجلسة 2: مقارنة التوقع بالواقع</span></div>
+</div>
+</header>
+<main class="wrap">
+<article class="lab" data-lab="1.2">
+<div class="box goal">
+  <h3>ستخرج من هذا المختبر بـ</h3>
+  <ul>
+    <li>ورقة توقع لستة اختبارات: ما توقعتَه، وما حدث في ثلاثة تشغيلات، وأين خاب توقعك.</li>
+    <li>بطاقة تيسير تدير بها هذا المختبر مع طلبتك.</li>
+    <li>أول سطر في قصاصة الجهد والتعلم، وستعود إليها في آخر اليوم.</li>
+  </ul>
+</div>
+
+<h2>ما تحتاجه</h2>
+<div class="files">
+  <a href="files/attendance_table.txt" target="_blank"><b>attendance_table.txt</b><span>جدول حضور المحاضرات المسائية في خمس كليات. اصطناعي.</span></a>
+  <a href="files/prediction_tests.txt" target="_blank"><b>prediction_tests.txt</b><span>الاختبارات الستة وأوامرها.</span></a>
+  <a href="files/prediction_sheet.csv" download><b>prediction_sheet.csv</b><span>ورقة التوقع الفارغة.</span></a>
+  <a href="files/midad_runs_prediction.txt" target="_blank"><b>midad_runs_prediction.txt</b><span>تشغيلات مسجلة، لمن لا يتاح له مساعد حي. لا تفتحها قبل أن تكتب توقعك.</span></a>
+  <a href="files/facilitation_card_template.txt" download><b>facilitation_card_template.txt</b><span>قالب بطاقة التيسير.</span></a>
+  <a href="files/effort_slip.csv" download><b>effort_slip.csv</b><span>قصاصة الجهد والتعلم لمختبرات اليوم الثلاثة.</span></a>
+</div>
+<p class="small">المساعد هنا هو مساعد جامعتك المرخص، أو «مِداد» في دراسة الحالة. في الخطوات 1 إلى 3 أنت طالب، وفي الخطوة 4 أنت من سيدير المختبر. الجدول اصطناعي ومستواه عام، فلا خطوة تنقية هنا، وقل ذلك لطلبتك حين تديره.</p>
+
+<h2>الخطوات</h2>
+
+<div class="step">
+  <h3>1 · اكتب توقعك للاختبارات الستة قبل أي تشغيل <span class="min">5 د</span></h3>
+  <p>افتح <code>prediction_tests.txt</code>. لكل اختبار اكتب في ورقة التوقع أمرين: هل سيثبت الجواب في ثلاثة تشغيلات أم يتغير، وماذا تتوقع أن يكون. لا تشغّل شيئًا بعد. التوقع المكتوب هو ما يجعل الواقع مفاجئًا.</p>
+  <table>
+    <tr><th>الاختبار</th><th>ما الذي يُختبر</th></tr>
+    <tr><td>T1</td><td>الأمر نفسه ثلاث مرات</td></tr>
+    <tr><td>T2</td><td>سؤال حسابي فيه كلمة تحتمل معنيين</td></tr>
+    <tr><td>T3</td><td>السؤال نفسه بعد تحديد العملية</td></tr>
+    <tr><td>T4</td><td>المدخل تغيّر في المحادثة نفسها</td></tr>
+    <tr><td>T5</td><td>طلب مصدر لا يملكه المساعد</td></tr>
+    <tr><td>T6</td><td>سؤال مبني على مقدمة خاطئة</td></tr>
+  </table>
+</div>
+
+<div class="step">
+  <h3>2 · شغّلوا كل اختبار ثلاث مرات موزعة على المجموعة، وسجّلوا الواقع <span class="min">12 د</span></h3>
+  <p>وزّعوا الاختبارات الستة على أعضاء المجموعة، اختبارين لكل عضو، ثم يملأ كل منكم ورقته من تشغيلات الجميع. الصق الجدول في محادثة جديدة ثم اكتب أمر الاختبار. للتشغيل الثاني والثالث افتح محادثة جديدة في كل مرة، إلا T4: يُكتب في المحادثة نفسها بعد T3. سجّل في الورقة الرقم أو الحكم الذي قاله المساعد في كل تشغيل، لا النص كله.</p>
+  <div class="prompt" data-tool="مساعد ذكاء اصطناعي لمختبرات الطلاب">هذا جدول حضور المحاضرات المسائية في جامعة الدهناء: <span class="ph">الصق الجدول</span>. ما متوسط نسبة الحضور؟</div>
+  <p class="small">إن لم يتح مساعد، أو ضاق الوقت، فاقرأ التشغيلات المسجلة في <code>midad_runs_prediction.txt</code> وسجّل منها. </p>
+</div>
+
+<div class="step">
+  <h3>3 · قارن: ما الذي تغيّر وما الذي ثبت <span class="min">5 د</span></h3>
+  <p>املأ العمودين الأخيرين. ثم اكتب تحت الجدول ثلاثة أسطر: شيء ثبت في كل التشغيلات، وشيء تغيّر وكان تغيّره بلا ضرر، وشيء تغيّر وكان تغيّره علامة خطر. احسب بنفسك النسبة الإجمالية من الجدول قبل أن تحكم على T2 وT3.</p>
+</div>
+
+<div class="step">
+  <h3>4 · بعين المدرّس: اكتب بطاقة التيسير <span class="min">9 د</span></h3>
+  <p>انتقل من مقعد الطالب إلى مقعد من يدير المختبر. املأ <code>facilitation_card_template.txt</code> لهذا المختبر: ماذا يكتب الطلبة قبل التشغيل، وماذا تفعل وماذا لا تفعل أثناءه، وثلاثة أسئلة استخلاص، والدليل الذي يسلّمه الطالب، وأين سيتعثر طلبة تخصصك. خانة «حدود الأمان» اكتب فيها «لا ينطبق».</p>
+  <p class="small">يجوز هنا أن تستعين بالمساعد مرشدًا: اسأله أين يتعثر الطلبة عادة، ثم احكم أنت. لا تطلب منه البطاقة كاملة.</p>
+</div>
+
+<div class="step">
+  <h3>5 · املأ قصاصة الجهد والتعلم <span class="min">4 د</span></h3>
+  <p>في السطر الأول من <code>effort_slip.csv</code> اكتب رقمين من 1 إلى 5: الجهد الذي بذلتَه، وما شعرتَ أنك تعلمته. ثم جملة واحدة. اكتب ما تشعر به الآن، لا ما تظن أنه الجواب المطلوب: سنقرأ قصاصات القاعة مجتمعة في آخر اليوم.</p>
+</div>
+
+<div class="step stretch">
+  <h3>✱ إضافي</h3>
+  <p>أضف اختبارًا سابعًا من تخصصك على الجدول نفسه، واكتب توقعك قبل تشغيله.</p>
+</div>
+
+<h2>أسئلة تحقق</h2>
+<ol class="checks">
+  <li>في أي اختبار خاب توقعك، ولماذا؟</li>
+  <li>لماذا أعطى T2 رقمين وأعطى T3 رقمًا واحدًا، والسؤال عن الجدول نفسه؟</li>
+  <li>ما الفرق بين تغيّر الجواب في T1 وتغيّره في T5؟</li>
+</ol>
+
+<details class="instructor">
+  <summary>للمدرّب</summary>
+  <p><b>المرجع:</b> <code>solutions/prediction_reference.csv</code> وبطاقة التيسير المرجعية <code>solutions/facilitation_card_prediction.txt</code>.</p>
+  <p><b>الأرقام:</b> مجموع الحاضرين 450 من 650 مسجلًا، فالنسبة الإجمالية 69.2%. ومتوسط نسب الكليات الخمس 69.8%. الرقمان صحيحان لسؤالين مختلفين، وكلمة «متوسط» في T2 لا تحدد أيهما.</p>
+  <p><b>في التشغيلات المسجلة:</b> T1 يثبت مضمونه وتتغير صياغته. T2 يعطي 69.8% مرتين و69.2% مرة. T3 يعطي 69.2% في التشغيلات الثلاثة. T4: تشغيل واحد من ثلاثة بقي على كلية التعليم بعد التصحيح. T5: مادتان مختلفتان ونسبتان مختلفتان، وتشغيل واحد اعتذر. T6: تشغيلان قبِلا المقدمة الخاطئة وتشغيل صحّحها.</p>
+  <p><b>مع مساعد حي:</b> لن تطابق النتائج التشغيلات المسجلة، وهذا جزء من الدرس. المساعدات الحديثة تصيب T4 وتعتذر في T5 أكثر مما في التسجيل. إن أصاب المساعد في كل شيء فاسأل: كيف عرفتَ أنه أصاب؟ ثم اعرض التشغيلات المسجلة لتكتمل الصورة.</p>
+  <p><b>الأخطاء الشائعة:</b> التشغيل قبل كتابة التوقع، وتشغيل واحد بدل ثلاثة، وعدّ تغيّر الصياغة في T1 خطأً. لا تصحّح توقعًا خاطئًا أثناء العمل: دعه للاستخلاص.</p>
+</details>
+</article>
+<nav class="pager"><a href="D1_1_alignment_summary.html" rel="prev">→ المختبر السابق</a><a href="D1_3_red_team.html" rel="next">المختبر التالي ←</a></nav>
+</main>
+<footer><div class="wrap">أكاديمية سدايا · مسار الطلاقة في البيانات والذكاء الاصطناعي · تقديم منهج البيانات والذكاء الاصطناعي في مختلف التخصصات<br><span class="muted">إصدار المقرر 2027.1.0 · المحرّك 1.0.0 · بُني في ⁦2026-11-17⁩ · الإيداع 8c953ab</span></div></footer>
+<script type="application/json" id="academy-data">{"v":1,"engine":"1.0.0","build":{"at":"2026-11-17T12:57:15Z","version":"2027.1.0","commit":"8c953ab"},"course":{"id":"use-edu-202","code":"USE-EDU-202","title":"تقديم منهج البيانات والذكاء الاصطناعي في مختلف التخصصات","track":"fluency","lang":"ar","dir":"rtl","url":"https://sdaiaacademy.github.io/use-edu-202/","repo":"SDAIAAcademy/use-edu-202","home":"../index.html"},"lab":{"id":"1.2","title":"مقارنة التوقع بالواقع، طالبًا ثم مدرّسًا","summary":"تكتب توقعك لستة اختبارات قبل تشغيلها على المساعد، وتسجّل ما حدث في ثلاثة تشغيلات لكل اختبار، ثم تكتب بطاقة التيسير لمن سيدير المختبر.","minutes":35,"day":1,"unit":"اليوم 1","session":2,"deck":"../slides/day1.html#lab-1-2","prev":"D1_1_alignment_summary.html","next":"D1_3_red_team.html","alt":{}},"ai":{"context":{"course":"../context/course.md","courseJs":"../context/course.js","day":null,"llms":"../llms.txt"},"tasks":[],"tools":[]},"features":{},"strings":{}}</script>
+<script src="../_engine/academy.js"></script>
+</body>
+</html>

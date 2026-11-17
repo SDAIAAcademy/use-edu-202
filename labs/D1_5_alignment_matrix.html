@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-ax="lab" data-track="fluency">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>المختبر 1.5 · مصفوفة المواءمة لمقررك · تقديم منهج البيانات والذكاء الاصطناعي في مختلف التخصصات</title>
+<meta name="generator" content="SDAIA Academy engine 1.0.0">
+<link rel="icon" href="../_engine/icon.svg">
+<link rel="alternate" type="text/markdown" href="D1_5_alignment_matrix.md">
+<link rel="describedby" href="../llms.txt">
+<link rel="stylesheet" href="../_engine/academy.css">
+</head>
+<body>
+<header>
+<div class="wrap">
+<div class="top"><div class="logo"></div><nav><a href="../index.html">صفحة المقرر</a><a href="../slides/day1.html#lab-1-5">العودة إلى الشرائح</a></nav></div>
+<span class="tag">المختبر 1.5</span>
+<h1>مصفوفة المواءمة لمقررك</h1>
+<p>تفحص مصفوفة النمط الموزع في جامعة الدهناء وتجد ثغراتها، ثم تملأ مصفوفة مقررك أنت: أين يُدرَّس كل ناتج وبأي دليل يُقيَّم.</p>
+<div class="meta"><span>45 دقيقة</span><span>اليوم 1</span><span>الجلسة 5: نمط التقديم ومصفوفة المواءمة</span></div>
+</div>
+</header>
+<main class="wrap">
+<article class="lab" data-lab="1.5">
+<div class="box goal">
+  <h3>ستخرج من هذا المختبر بـ</h3>
+  <ul>
+    <li>نمط تقديم اخترتَه لمقررك أو برنامجك، ومبرر من ثلاثة أسطر.</li>
+    <li>مصفوفة مواءمة: لكل ناتج من التسعة عشر موضع تدريس ودليل تقييم. هذا دليل ناتج التعلم الثاني، وأول ملف في خطة التقديم.</li>
+    <li>ثغرة واحدة وجدها زميل في مصفوفتك.</li>
+  </ul>
+</div>
+
+<h2>ما تحتاجه</h2>
+<div class="files">
+  <a href="files/delivery_models.txt" target="_blank"><b>delivery_models.txt</b><span>الأنماط الثلاثة، وأربعة أسئلة قبل الاختيار، وما يكسبه كل نمط وما يكلّفه.</span></a>
+  <a href="files/spec_distributed.txt" target="_blank"><b>spec_distributed.txt</b><span>توصيف النمط الموزع في جامعة الدهناء.</span></a>
+  <a href="files/matrix_distributed.csv" download><b>matrix_distributed.csv</b><span>مصفوفة النمط الموزع كما أعدّتها لجنة الخطط. فيها ثغرات.</span></a>
+  <a href="files/matrix_template.csv" download><b>matrix_template.csv</b><span>المصفوفة الفارغة: تسعة عشر صفًّا وأربعة أعمدة تملؤها.</span></a>
+  <a href="files/spec_standalone.txt" target="_blank"><b>spec_standalone.txt</b><span>توصيف النمط المستقل.</span></a>
+  <a href="files/spec_embedded.txt" target="_blank"><b>spec_embedded.txt</b><span>توصيف النمط المدمج. من لم يحضر توصيف مقرره يعمل عليه.</span></a>
+</div>
+<p class="small">المصفوفة جزء من خطة التقديم، فيجوز أن تصوغها بالذكاء الاصطناعي كاملًا بشرط الإفصاح: اكتب في آخرها ما الذي صاغه المساعد وما الذي راجعتَه. لا تلصق في المساعد توصيفًا فيه أسماء طلبة أو درجاتهم.</p>
+
+<h2>الخطوات</h2>
+
+<div class="step">
+  <h3>1 · اختر النمط واكتب مبررًا من ثلاثة أسطر <span class="min">6 د</span></h3>
+  <p>اقرأ <code>delivery_models.txt</code> وأجب عن أسئلته الأربعة لمقررك أو برنامجك. ثم اكتب: النمط الذي اخترتَه، ولماذا يناسب جامعتك، وما الثمن الذي تقبله. لا نمط أفضل من غيره في المنهج: الأفضل ما تستطيع أن تثبت تغطيته.</p>
+</div>
+
+<div class="step">
+  <h3>2 · افحص مصفوفة النمط الموزع وجد ثغراتها <span class="min">8 د</span></h3>
+  <p>افتح <code>matrix_distributed.csv</code>. اقرأها صفًّا صفًّا واسأل أربعة أسئلة عن كل ناتج:</p>
+  <table>
+    <tr><th>السؤال</th><th>الثغرة إن كان الجواب لا</th></tr>
+    <tr><td>هل له موضع تدريس؟</td><td>ناتج لا يغطيه أحد</td></tr>
+    <tr><td>هل له دليل تقييم؟</td><td>ناتج يُدرَّس ولا يُقيَّم</td></tr>
+    <tr><td>هل الدليل شيء يسلّمه الطالب؟</td><td>دليل ضعيف: الحضور والمشاركة ليسا دليلًا</td></tr>
+    <tr><td>هل يصل إلى كل الطلبة؟</td><td>ناتج لطلبة كلية واحدة</td></tr>
+  </table>
+  <p>اكتب رموز النواتج التي فيها ثغرة، ونوع كل ثغرة. ثم انظر: أي ناتج مستهدف صار معلّقًا على ناتج مكوّن واحد؟</p>
+</div>
+
+<div class="step">
+  <h3>3 · املأ عمود «أين يُدرَّس» لمقررك <span class="min">15 د</span></h3>
+  <p>في <code>matrix_template.csv</code> اكتب لكل ناتج: المقرر والأسبوع أو الوحدة، ومن يدرسه (الجميع أم كلية بعينها)، والنشاط. فضّل مختبرًا من السبعة الموصى بها على محاضرة حيث أمكن. إن لم يكن لناتج موضع في مقررك فاكتب أين سيكون، واسم من يجب أن توافقه عليه.</p>
+  <div class="prompt" data-tool="مساعد ذكاء اصطناعي لمختبرات الطلاب">هذه نواتج المكونات التسعة عشر: <span class="ph">الصق العمودين الأولين</span>. وهذا توصيف مقرري بأسابيعه: <span class="ph">الصق التوصيف بلا أسماء</span>. اقترح لكل ناتج الأسبوع الأنسب ونشاطًا يعمل فيه الطلبة بأيديهم. اكتب «لا موضع مناسب» حيث لا تجد، ولا تخترع أسبوعًا.</div>
+</div>
+
+<div class="step">
+  <h3>4 · أضف دليل التقييم لكل ناتج <span class="min">10 د</span></h3>
+  <p>في العمود الأخير اكتب ما يسلّمه الطالب: ورقة توقع، سجل تمرين، شبكة قياس، خطة حالة استخدام. اسأل عن كل دليل: لو رأيتُه وحده، هل أعرف أن الناتج تحقق؟ ناتج بلا دليل لم يدخل مقررك بعد.</p>
+</div>
+
+<div class="step">
+  <h3>5 · بادل المصفوفة مع زميل: ثغرة واحدة لكل منكما <span class="min">6 د</span></h3>
+  <p>اقرأ مصفوفة زميلك بالأسئلة الأربعة نفسها، وأعطه ثغرة واحدة مكتوبة. خذ ثغرتك واكتب بجانبها ما ستفعله. احفظ المصفوفة: هي الملف الأول في مجلد خطة التقديم.</p>
+</div>
+
+<div class="step stretch">
+  <h3>✱ إضافي</h3>
+  <p>أضف عمودًا لموضوع إثراء واحد، وبيّن أي ناتج مستهدف يخدمه وفي أي أسبوع.</p>
+</div>
+
+<h2>أسئلة تحقق</h2>
+<ol class="checks">
+  <li>كم ناتجًا في مصفوفة النمط الموزع فيه ثغرة، وما أنواعها؟</li>
+  <li>أي ناتج مستهدف في تلك المصفوفة معلّق على ناتج مكوّن واحد؟</li>
+  <li>كم ناتجًا في مصفوفتك أنت بلا دليل تقييم بعد؟</li>
+</ol>
+
+<details class="instructor">
+  <summary>للمدرّب</summary>
+  <p><b>الفحص الآلي:</b> <code>uv run labs/solutions/dahna_tools.py matrix</code> ثم مسار المصفوفة. المصفوفة المرجعية الكاملة للنمط المدمج: <code>solutions/matrix_embedded_reference.csv</code>.</p>
+  <p><b>ثغرات المصفوفة الموزعة، ستة نواتج:</b> C3-LO4 لا يغطيه أحد. C5-LO3 يُدرَّس بنقاش ولا دليل له. C2-LO3 دليله «حضور المحاضرة». C6-LO1 وC6-LO2 وC6-LO3 لطلبة كلية الأعمال وحدهم، فأربع كليات لا مكون سادس لها.</p>
+  <p><b>الناتج المعلّق:</b> ILO3 لا يبقى له إلا C2-LO1، لأن نواتجه الثلاثة الأخرى (C2-LO3 وC5-LO3 وC6-LO3) كلها في الثغرات. هذا ما لا يراه منسّق أي مقرر وحده، وتراه المصفوفة.</p>
+  <p><b>الأخطاء الشائعة:</b> ملء عمود النشاط بكلمة «محاضرة» في كل صف، وكتابة «اختبار نهائي» دليلًا لكل ناتج، وترك المكون السادس «للكلية» دون اسم مقرر. اسأل دائمًا: من يدرّسه، وماذا يسلّم الطالب؟</p>
+  <p><b>من عمل على التوصيف المدمج:</b> يقارن مصفوفته بالمرجعية. الفروق في الأسابيع مقبولة، والفروق في وجود دليل لكل ناتج غير مقبولة.</p>
+</details>
+</article>
+<nav class="pager"><a href="D1_4_coverage.html" rel="prev">→ المختبر السابق</a><a href="D2_1_adapt_lab.html" rel="next">المختبر التالي ←</a></nav>
+</main>
+<footer><div class="wrap">أكاديمية سدايا · مسار الطلاقة في البيانات والذكاء الاصطناعي · تقديم منهج البيانات والذكاء الاصطناعي في مختلف التخصصات<br><span class="muted">إصدار المقرر 2027.1.0 · المحرّك 1.0.0 · بُني في ⁦2026-11-17⁩ · الإيداع 8c953ab</span></div></footer>
+<script type="application/json" id="academy-data">{"v":1,"engine":"1.0.0","build":{"at":"2026-11-17T12:57:15Z","version":"2027.1.0","commit":"8c953ab"},"course":{"id":"use-edu-202","code":"USE-EDU-202","title":"تقديم منهج البيانات والذكاء الاصطناعي في مختلف التخصصات","track":"fluency","lang":"ar","dir":"rtl","url":"https://sdaiaacademy.github.io/use-edu-202/","repo":"SDAIAAcademy/use-edu-202","home":"../index.html"},"lab":{"id":"1.5","title":"مصفوفة المواءمة لمقررك","summary":"تفحص مصفوفة النمط الموزع في جامعة الدهناء وتجد ثغراتها، ثم تملأ مصفوفة مقررك أنت: أين يُدرَّس كل ناتج وبأي دليل يُقيَّم.","minutes":45,"day":1,"unit":"اليوم 1","session":5,"deck":"../slides/day1.html#lab-1-5","prev":"D1_4_coverage.html","next":"D2_1_adapt_lab.html","alt":{}},"ai":{"context":{"course":"../context/course.md","courseJs":"../context/course.js","day":null,"llms":"../llms.txt"},"tasks":[],"tools":[]},"features":{},"strings":{}}</script>
+<script src="../_engine/academy.js"></script>
+</body>
+</html>
